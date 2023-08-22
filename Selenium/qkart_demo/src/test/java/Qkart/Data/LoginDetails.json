@@ -1,0 +1,17 @@
+[ {
+  "uname" : "",
+  "pwd" : "test321",
+  "val" : "Username is a required field"
+}, {
+  "uname" : "demouser",
+  "pwd" : "",
+  "val" : "Password is a required field"
+}, {
+  "uname" : "demouser",
+  "pwd" : "dem",
+  "val" : "Password is incorrect"
+}, {
+  "uname" : "Test@123",
+  "pwd" : "Test@123",
+  "val" : "Logged in successfully"
+}]

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-14T13:52:23 IST" name="Suite" finished-at="2023-05-14T13:55:06 IST" duration-ms="162836">
+    <groups>
+    </groups>
+    <test started-at="2023-05-14T13:52:23 IST" name="Test" finished-at="2023-05-14T13:55:06 IST" duration-ms="162836">
+      <class name="Qkart.Test.LoginTestScenario">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:53:42 IST" name="setUp" finished-at="2023-05-14T13:53:47 IST" duration-ms="5268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.util.HashMap)[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:53:47 IST" name="testLogin" data-provider="getDataLogin" finished-at="2023-05-14T13:54:04 IST" duration-ms="16450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{val=Username is a required field, uname=, pwd=demo321}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:54:04 IST" name="tearDown" finished-at="2023-05-14T13:54:05 IST" duration-ms="1316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:54:05 IST" name="setUp" finished-at="2023-05-14T13:54:12 IST" duration-ms="6862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.util.HashMap)[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:54:12 IST" name="testLogin" data-provider="getDataLogin" finished-at="2023-05-14T13:54:28 IST" duration-ms="16410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{val=Password is a required field, uname=demo, pwd=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:54:28 IST" name="tearDown" finished-at="2023-05-14T13:54:29 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:54:29 IST" name="setUp" finished-at="2023-05-14T13:54:37 IST" duration-ms="8048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.util.HashMap)[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:54:37 IST" name="testLogin" data-provider="getDataLogin" finished-at="2023-05-14T13:54:54 IST" duration-ms="17332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{val=Password is incorrect, uname=demo, pwd=chr}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:54:54 IST" name="tearDown" finished-at="2023-05-14T13:54:55 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:54:55 IST" name="setUp" finished-at="2023-05-14T13:55:01 IST" duration-ms="6791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.util.HashMap)[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:55:01 IST" name="testLogin" data-provider="getDataLogin" finished-at="2023-05-14T13:55:05 IST" duration-ms="3301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{val=Logged in successfully, uname=demo3212, pwd=demo321}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qkart.Test.LoginTestScenario@6b289535]" started-at="2023-05-14T13:55:05 IST" name="tearDown" finished-at="2023-05-14T13:55:06 IST" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Qkart.Test.LoginTestScenario -->
+      <class name="Qkart.Test.RegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:52:25 IST" name="setUp" finished-at="2023-05-14T13:52:50 IST" duration-ms="24644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegistration(java.util.HashMap)[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:52:50 IST" name="testRegistration" data-provider="getData" finished-at="2023-05-14T13:52:57 IST" duration-ms="7165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{val=Registered Successfully, uname=demo3213, cpwd=demo321, pwd=demo321}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:52:57 IST" name="tearDown" finished-at="2023-05-14T13:52:59 IST" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:52:59 IST" name="setUp" finished-at="2023-05-14T13:53:05 IST" duration-ms="6361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegistration(java.util.HashMap)[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:05 IST" name="testRegistration" data-provider="getData" finished-at="2023-05-14T13:53:07 IST" duration-ms="2050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{val=Username must be at least 6 characters, uname=demo, cpwd=demo321, pwd=demo321}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:07 IST" name="tearDown" finished-at="2023-05-14T13:53:08 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:08 IST" name="setUp" finished-at="2023-05-14T13:53:13 IST" duration-ms="5782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegistration(java.util.HashMap)[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:13 IST" name="testRegistration" data-provider="getData" finished-at="2023-05-14T13:53:16 IST" duration-ms="2669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{val=Passwords do not match, uname=demo12, cpwd=demo321, pwd=demo3211}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:16 IST" name="tearDown" finished-at="2023-05-14T13:53:17 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:17 IST" name="setUp" finished-at="2023-05-14T13:53:24 IST" duration-ms="7923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegistration(java.util.HashMap)[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:24 IST" name="testRegistration" data-provider="getData" finished-at="2023-05-14T13:53:26 IST" duration-ms="1752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{val=Password must be at least 6 characters, uname=demo12, cpwd=chi, pwd=chi}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:26 IST" name="tearDown" finished-at="2023-05-14T13:53:27 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:27 IST" name="setUp" finished-at="2023-05-14T13:53:32 IST" duration-ms="5424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegistration(java.util.HashMap)[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:32 IST" name="testRegistration" data-provider="getData" finished-at="2023-05-14T13:53:34 IST" duration-ms="1743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{val=Password is a required field, uname=demo12, cpwd=demo, pwd=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:34 IST" name="tearDown" finished-at="2023-05-14T13:53:34 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:34 IST" name="setUp" finished-at="2023-05-14T13:53:39 IST" duration-ms="5083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegistration(java.util.HashMap)[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:39 IST" name="testRegistration" data-provider="getData" finished-at="2023-05-14T13:53:42 IST" duration-ms="2450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{val=Username is a required field, uname=, cpwd=demo12, pwd=demo12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Qkart.Test.RegistrationTest@53d87b2d]" started-at="2023-05-14T13:53:42 IST" name="tearDown" finished-at="2023-05-14T13:53:42 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Qkart.Test.RegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
