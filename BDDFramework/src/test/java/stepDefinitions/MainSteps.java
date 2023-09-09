@@ -15,13 +15,21 @@ public class MainSteps {
         //throw new io.cucumber.java.PendingException();
     }
 
-        @When("User login into application with {string} and password {string}")
-        public void user_login_into_application_with_and_password(String username, String password) {
-            // Write code here that turns the phrase above into concrete actions
-            System.out.println(username + " and password is " + password );
+//        @When("User login into application with {string} and password {string}")
+//        public void user_login_into_application_with_and_password(String username, String password) {
+//            // Write code here that turns the phrase above into concrete actions
+//            System.out.println(username + " and password is " + password );
+//
+//        }
 
-        }
 
+    /* This is for Regex pattern */
+    @When("^User login into application with (.+) and password (.+)$")
+    public void user_login_into_application_with_and_password(String username, String password) {
+        // Write code here that turns the phrase above into concrete actions
+        System.out.println(username + " and password is " + password );
+        /* If you don't provide this cap ^ symbol and dollar symbol. It could not identify that as a regex pattern. */
+    }
 
     @Then("Home Page is displayed")
     public void home_page_is_displayed() {
