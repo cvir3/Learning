@@ -29,7 +29,7 @@ public class MainSteps {
         //throw new io.cucumber.java.PendingException();
         System.out.println("Home page is displayed");
     }
-    @Then("Cards are displayed.")
+    @Then("Cards are displayed")
     public void cards_are_displayed() {
         // Write code here that turns the phrase above into concrete actions
         //throw new io.cucumber.java.PendingException();
