@@ -43,14 +43,3 @@ Feature:  ApplicationLogin
       | 9898098980 |
     Then Home Page is displayed
     And Cards are displayed
-
-#    Note:- If you want to run tags wise code add so add tags in the feature file and put the code in the TestNGRunner code.
-#    If you want to run only SmokeTesting, Regression, UI, MobileTesting. set the tags as @SmokeTest or If you want to run
-#    Smoke and Regresstion add and key word @SmokeTest and Regression, Or If you don't want to smoketest add not keyword before the @
-#    not @SmokeTest.
-#    You can use and, or, not
-#
-#  @CucumberOptions(features="src/test/java/features",
-#  glue="stepDefinitions",monochrome = true, tags = "@SmokeTest")
-#  public class TestNGRunner extends AbstractTestNGCucumberTests {
-#  }
