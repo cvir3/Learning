@@ -14,12 +14,15 @@ public class MainSteps {
         System.out.println("User landed on netbanking page");
         //throw new io.cucumber.java.PendingException();
     }
-    @When("User login into application")
-    public void user_login_into_application() {
-        // Write code here that turns the phrase above into concrete actions
-        System.out.println("User login into application");
-        //throw new io.cucumber.java.PendingException();
-    }
+
+        @When("User login into application with {string} and password {string}")
+        public void user_login_into_application_with_and_password(String username, String password) {
+            // Write code here that turns the phrase above into concrete actions
+            System.out.println(username + " and password is " + password );
+
+        }
+
+
     @Then("Home Page is displayed")
     public void home_page_is_displayed() {
         // Write code here that turns the phrase above into concrete actions
