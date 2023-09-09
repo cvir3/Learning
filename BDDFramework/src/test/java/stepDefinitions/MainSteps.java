@@ -58,4 +58,21 @@ public class MainSteps {
         //throw new io.cucumber.java.PendingException();
         System.out.println("Cards are displayed");
     }
+
+    /* This is for background test */
+    @Given("setup the entries in the database")
+    public void setupEntries(){
+        System.out.println("************************");
+        System.out.println("setup the entries in the database");
+    }
+
+    @When("launch the browser from config variables")
+    public void launchBrowser(){
+        System.out.println("launch the browser from config variables");
+    }
+
+    @When("hit the home page url of banking site")
+    public void hitURl(){
+        System.out.println("hit the home page url of banking site");
+    }
 }
