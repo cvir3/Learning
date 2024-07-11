@@ -7,7 +7,7 @@ public class hooks {
     @Before("@NetBanking")
     public void netBankingSetup()
     {
-        System.out.println("**************************************************************");
+        System.out.println("****************************************");
         System.out.println("setup the entries in NetBanking database");
     }
 
@@ -20,6 +20,6 @@ public class hooks {
     @Before("@TestQOPS")
     public void testqaopsSetup()
     {
-        System.out.println("setup the entries in Qaops database");
+        System.out.println("setup the entries in QAOPS database");
     }
 }

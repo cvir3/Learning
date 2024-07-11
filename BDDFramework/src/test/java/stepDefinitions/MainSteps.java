@@ -4,6 +4,7 @@ package stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.Assert;
 
 import java.util.List;
 
@@ -36,6 +37,7 @@ public class MainSteps {
     public void user_is_on_practice_landing_page() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("Practice landing page");
+        Assert.assertTrue(false);
     }
     /* This is for Data Driven*/
     @When("User Signup into application")
